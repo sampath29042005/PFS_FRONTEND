@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+    <!-- 
+    forms
+    it is used collect the data from user and allowing user to
+    submit the data to the server
+    ex: login,signup,contact form,registration
+    forms are defined with form
+    
+    form field are defined with input tag
+    label tag is used to provide the hint about text field
+
+    value - we can provide pre defined value
+
+    for&id - it is used connect the input to label
+
+    required - it specified that a field must contain values before submitted
+    min
+    max
+    maxlength
+
+    action
+    it specifies where the data should be summited
+    formsubmit.co
+    -->
+    <form action="" method="post">
+        <label for="un">enter name</label>
+        <input id="un" type="text" value="john" name="username" maxlength="5"  required><br>
+        <label for="ue">enter email</label>
+        <input id="ue" type="email" value="john@gmail.com" name="useremail"><br>
+        <label for="">enter quantity</label>
+        <input type="number" max="4" min="2"><br>
+        <label for="">password</label>
+        <input type="password"><br>
+        <label for="">dob</label>
+        <input type="date"><br>
+        <label for="">book you appointment</label>
+        <input type="datetime-local"><br>
+        <label for="">weekly report</label>
+        <input type="week"><br>
+
+        <label for="">upload file</label>
+        <input type="file"><br>
+        <label for="">search products</label>
+        <input type="search"><br>
+        <label for="">select range</label>
+        <input type="range"><br>
+        <label for="">upload deployment link</label>
+        <input type="url"><br>
+        <button type="submit">submit</button><br>
+        <button type="reset">reset</button><br>
+    </form>
+
+    <form action="">
+        <label for="">select your stack</label><br>
+        <input id="py" type="radio" name="stack" value="pfs">
+        <label for="py">python full stack</label>
+        <input id="java" type="radio" name="stack" value="jfs">
+        <label for="java">java full stack</label>
+        <input id="mrn" type="radio" name="stack" value="mfs">
+        <label for="mrn">mern fullstack</label>
+        <button type="submit">submit</button><br>
+
+        <p>select your skills</p>
+        <input id="ht" type="checkbox" name="skill" value="html">
+        <label for="ht">HTML</label>
+        <input id="cs" type="checkbox" name="skill" value="css">
+        <label for="cs">CSS</label>
+        <input id="ja" type="checkbox" name="skill" value="js">
+        <label for="ja">JS</label>
+        <button type="submit">submit</button><br>  
+
+        <p>select your branch</p>
+        <select name="branch" id="">
+            <option value="vizag">vizag</option>
+            <option value="hyd">hyd</option>
+        </select>
+        <button type="submit">submit</button><br>
+        <br>
+        <lable for="">enter brief about yourself</lable><br>
+        <textarea name="" rows="10" cols="10" id=""></textarea>
+        <button type="submit">submit</button><br>
+    </form>
+</body>
+</html>

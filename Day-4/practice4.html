@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Registration Form</title>
+</head>
+<body>
+
+    <p>Simple Registration Form</p>
+
+    <form action="https://formsubmit.co/bhashwanthalla@gmail.com" method="post">
+
+        <p>Name</p>
+        <label for="fname">First Name</label>
+        <input id="fname" type="text" name="first_name" required>
+        <label for="lname">Last Name</label>
+        <input id="lname" type="text" name="last_name" required><br><br>
+
+        <p>Email</p>
+        <label for="uemail">example@example.com</label><br>
+        <input id="uemail" type="email" name="useremail" required><br><br>
+
+        <p>Phone Number</p>
+        <label for="phone">Please enter a valid phone number.</label><br>
+        <input id="phone" type="number" name="phone" required><br><br>
+
+        <p>Date of birth</p>
+        <label for="dob">Date</label><br>
+        <input id="dob" type="date" name="dob"><br><br>
+
+        <p>Gender</p>
+        <input id="male" type="radio" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input id="female" type="radio" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <p>Address</p>
+        <label for="street1">Street Address</label><br>
+        <input id="street1" type="text" name="street_address"><br><br>
+
+        <label for="street2">Street Address Line 2</label><br>
+        <input id="street2" type="text" name="street_address_2"><br><br>
+
+        <label for="city">City</label>
+        <input id="city" type="text" name="city">
+        <label for="state">State / Province</label>
+        <input id="state" type="text" name="state"><br><br>
+
+        <label for="zip">Postal / Zip Code</label><br>
+        <input id="zip" type="number" name="postal_code"><br><br>
+
+        <p>How did you hear about us?</p>
+        <textarea id="hear" name="hear_about_us" rows="5" cols="40"></textarea><br><br>
+
+        <p>Would you like to receive updates and promotions via email?</p>
+        <input id="yes" type="radio" name="updates" value="yes">
+        <label for="yes">Yes</label><br>
+        <input id="no" type="radio" name="updates" value="no">
+        <label for="no">No</label><br><br>
+
+        <input id="terms" type="checkbox" name="terms" value="agreed" required>
+        <label for="terms">I agree to terms &amp; conditions. *</label><br><br>
+
+        <p>Signature</p>
+        <label for="sign">Sign Here</label><br>
+        <textarea id="sign" name="signature" rows="4" cols="30"></textarea><br><br>
+
+        <p>Date Signed</p>
+        <label for="signed_date">Date</label><br>
+        <input id="signed_date" type="date" name="date_signed"><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+
+    </form>
+
+</body>
+</html>
