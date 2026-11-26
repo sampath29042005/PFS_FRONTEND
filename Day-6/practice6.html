@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            padding: 20px;
+            text-align: right;
+            position: sticky;
+            top: 0;
+            background: gray;
+            z-index: 100;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+
+        .parent {
+            background: lightblue;
+            padding: 40px;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card {
+            background: orange;
+            width: 25%;
+            padding: 20px;
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+
+        .card ul {
+            text-align: left;
+            padding-left: 20px;
+            line-height: 1.6;
+        }
+
+        button {
+            color: orange;
+            padding: 12px 20px;
+            background: transparent;
+            border: 2px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+
+        .icons {
+            position: fixed;
+            top: 40%;
+            right: 2%;
+            font-size: 28px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            | <a href="#original">Original Avengers</a>
+            | <a href="#new-wave">New Wave</a>
+            | <a href="#powerhouses">Powerhouses</a>
+            | <a href="https://en.wikipedia.org/wiki/Avengers_(comics)" target="_blank">About</a> |
+        </nav>
+    </header>
+
+    <div class="parent" id="original">
+        <div class="card">
+            <div><img src="https://images.immediate.co.uk/production/volatile/sites/3/2018/05/IRON-2008-d7a2706.jpg?resize=768,512" alt="Iron Man"></div>
+            <h1>Iron Man (Tony Stark)</h1>
+            <ul>
+                <li><strong>Role:</strong> Co-founder &amp; Tech Genius</li>
+                <li><strong>Power:</strong> Genius-level intellect</li>
+                <li><strong>Gear:</strong> Powered Iron Man Armor</li>
+                <li><strong>Power Source:</strong> Arc Reactor</li>
+                <li><strong>Company:</strong> Stark Industries</li>
+                <li><strong>Base:</strong> Avengers Tower</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/Iron_Man" target="_blank">Know more</a></button>
+        </div>
+
+        <div class="card">
+            <div><img src="https://i.pinimg.com/736x/5f/79/87/5f7987b721fa4eed6e749b37df4a74e9.jpg" alt="Captain America"></div>
+            <h1>Captain America (Steve Rogers)</h1>
+            <ul>
+                <li><strong>Role:</strong> Field Leader &amp; Tactician</li>
+                <li><strong>Power:</strong> Super Soldier Serum</li>
+                <li><strong>Weapon:</strong> Vibranium Shield</li>
+                <li><strong>Origin:</strong> Brooklyn, New York</li>
+                <li><strong>Era:</strong> World War II Veteran</li>
+                <li><strong>Trait:</strong> Peak human strength &amp; agility</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/Captain_America" target="_blank">Know more</a></button>
+        </div>
+
+        <div class="card">
+            <div><img src="https://www.superherotoystore.com/cdn/shop/articles/68961_627x.jpg?v=1467661325" alt="Thor"></div>
+            <h1>Thor Odinson (God of Thunder)</h1>
+            <ul>
+                <li><strong>Role:</strong> Heavy Hitter &amp; Asgardian Prince</li>
+                <li><strong>Power:</strong> Lightning &amp; Storm Manipulation</li>
+                <li><strong>Weapon:</strong> Mjolnir &amp; Stormbreaker</li>
+                <li><strong>Home:</strong> Asgard</li>
+                <li><strong>Trait:</strong> Immense strength &amp; longevity</li>
+                <li><strong>Ability:</strong> Flight &amp; Bifrost summoning</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/Thor_(Marvel_Comics)" target="_blank">Know more</a></button>
+        </div>
+
+        <div class="card">
+            <div><img src="https://dessindigo.com/storage/images/posts/hulk/image-reference-dessin-hulk.jpg" alt="Hulk"></div>
+            <h1>Hulk (Bruce Banner)</h1>
+            <ul>
+                <li><strong>Role:</strong> Scientist &amp; Powerhouse</li>
+                <li><strong>Power:</strong> Limitless rage-fueled strength</li>
+                <li><strong>Origin:</strong> Gamma radiation accident</li>
+                <li><strong>Intellect:</strong> Expert in nuclear physics</li>
+                <li><strong>Trait:</strong> Extreme durability &amp; healing</li>
+                <li><strong>Signature:</strong> "Hulk Smash!"</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/Hulk" target="_blank">Know more</a></button>
+        </div>
+
+        <div class="card">
+            <div><img src="https://upload.wikimedia.org/wikipedia/en/1/1b/Hawkeye_%28circa_2022%29.webp?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Hawkeye"></div>
+            <h1>Hawkeye (Clint Barton)</h1>
+            <ul>
+                <li><strong>Role:</strong> Recon &amp; Marksman</li>
+                <li><strong>Power:</strong> Unmatched accuracy</li>
+                <li><strong>Weapon:</strong> Bow &amp; trick arrows</li>
+                <li><strong>Affiliation:</strong> Former S.H.I.E.L.D. agent</li>
+                <li><strong>Skill:</strong> Master martial artist</li>
+                <li><strong>Trait:</strong> Sharp tactical vision</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/Hawkeye_(Clint_Barton)" target="_blank">Know more</a></button>
+        </div>
+    </div>
+
+    <div class="parent" id="new-wave">
+        <div class="card">
+            <div><img src="https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/ojw4kvzljfn20mzon1mp.jpg" alt="Spider-Man"></div>
+            <h1>Spider-Man (Peter Parker)</h1>
+            <ul>
+                <li><strong>Role:</strong> Friendly Neighborhood Hero</li>
+                <li><strong>Power:</strong> Wall-crawling &amp; Spider-Sense</li>
+                <li><strong>Gear:</strong> Web-shooters &amp; Iron Spider suit</li>
+                <li><strong>Origin:</strong> Radioactive spider bite</li>
+                <li><strong>Home:</strong> Queens, New York</li>
+                <li><strong>Trait:</strong> High agility &amp; scientific mind</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/Spider-Man" target="_blank">Know more</a></button>
+        </div>
+
+        <div class="card">
+            <div><img src="https://i.pinimg.com/736x/14/48/f9/1448f9fc9f0c813c6ccef5cbb395283d.jpg" alt="Falcon"></div>
+            <h1>Falcon / Captain America (Sam Wilson)</h1>
+            <ul>
+                <li><strong>Role:</strong> Aerial Specialist &amp; Leader</li>
+                <li><strong>Gear:</strong> EXO-7 Falcon wing-pack</li>
+                <li><strong>Weapon:</strong> Vibranium Shield &amp; Redwing drone</li>
+                <li><strong>Background:</strong> U.S. Air Force Pararescue</li>
+                <li><strong>Skill:</strong> Expert aerial combatant</li>
+                <li><strong>Legacy:</strong> Successor to Steve Rogers</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/Falcon_(comics)" target="_blank">Know more</a></button>
+        </div>
+
+        <div class="card">
+            <div><img src="https://upload.wikimedia.org/wikipedia/en/e/e6/War_Machine_%28James_Rhodes%29.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="War Machine"></div>
+            <h1>War Machine (James Rhodes)</h1>
+            <ul>
+                <li><strong>Role:</strong> Heavy Artillery Support</li>
+                <li><strong>Gear:</strong> War Machine Combat Armor</li>
+                <li><strong>Weapons:</strong> Shoulder-mounted minigun &amp; missiles</li>
+                <li><strong>Background:</strong> U.S. Air Force Colonel</li>
+                <li><strong>Ally:</strong> Tony Stark's closest friend</li>
+                <li><strong>Skill:</strong> Expert pilot &amp; tactician</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/War_Machine" target="_blank">Know more</a></button>
+        </div>
+
+        <div class="card">
+            <div><img src="https://cdn.britannica.com/18/182818-050-593F418A/Movie-poster-Ant-Man-Paul-Rudd-Scott-Lang.jpg" alt="Ant-Man"></div>
+            <h1>Ant-Man (Scott Lang)</h1>
+            <ul>
+                <li><strong>Role:</strong> Infiltration &amp; Quantum Explorer</li>
+                <li><strong>Power:</strong> Size manipulation (shrink &amp; grow)</li>
+                <li><strong>Tech:</strong> Pym Particles &amp; Ant-Man suit</li>
+                <li><strong>Ability:</strong> Communicates with ants</li>
+                <li><strong>Background:</strong> Electrical engineer</li>
+                <li><strong>Key Feat:</strong> Helped unlock time travel</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/Ant-Man_(Scott_Lang)" target="_blank">Know more</a></button>
+        </div>
+    </div>
+
+    <div class="parent" id="powerhouses">
+        <div class="card">
+            <div><img src="https://www.denofgeek.com/wp-content/uploads/2021/01/webstory-benttany-vision-02@2x.jpg" alt="Vision"></div>
+            <h1>Vision</h1>
+            <ul>
+                <li><strong>Role:</strong> Synthezoid Avenger</li>
+                <li><strong>Body:</strong> Vibranium-laced artificial form</li>
+                <li><strong>Power Source:</strong> Mind Stone</li>
+                <li><strong>Ability:</strong> Density shifting &amp; phasing</li>
+                <li><strong>Weapon:</strong> Solar energy beam</li>
+                <li><strong>Trait:</strong> Worthy of lifting Mjolnir</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/Vision_(Marvel_Cinematic_Universe)" target="_blank">Know more</a></button>
+        </div>
+
+        <div class="card">
+            <div><img src="https://upload.wikimedia.org/wikipedia/en/f/f6/Scarlett_Johansson_as_Black_Widow.jpg" alt="Black Widow"></div>
+            <h1>Black Widow (Natasha Romanoff)</h1>
+            <ul>
+                <li><strong>Role:</strong> Master Spy &amp; Assassin</li>
+                <li><strong>Skill:</strong> Elite hand-to-hand combatant</li>
+                <li><strong>Weapons:</strong> Widow's Bite gauntlets &amp; batons</li>
+                <li><strong>Affiliation:</strong> Former S.H.I.E.L.D. &amp; Red Room</li>
+                <li><strong>Trait:</strong> Master of espionage &amp; stealth</li>
+                <li><strong>Legacy:</strong> Core founding Avenger</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/Black_Widow_(Natasha_Romanova)" target="_blank">Know more</a></button>
+        </div>
+
+        <div class="card">
+            <div><img src="images/Scarlet_Witch_(Wanda Maximoff).jpg" alt="Scarlet Witch"></div>
+            <h1>Scarlet Witch (Wanda Maximoff)</h1>
+            <ul>
+                <li><strong>Role:</strong> Mystic Powerhouse</li>
+                <li><strong>Power:</strong> Chaos Magic &amp; reality warping</li>
+                <li><strong>Abilities:</strong> Telekinesis &amp; telepathy</li>
+                <li><strong>Origin:</strong> Sokovia</li>
+                <li><strong>Twin:</strong> Pietro Maximoff (Quicksilver)</li>
+                <li><strong>Trait:</strong> One of the strongest Avengers</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/Wanda_Maximoff_(Marvel_Cinematic_Universe)" target="_blank">Know more</a></button>
+        </div>
+
+        <div class="card">
+            <div><img src="https://upload.wikimedia.org/wikipedia/en/2/28/Quicksilver_%28Marvel_Comics%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled" alt="Quicksilver"></div>
+            <h1>Quicksilver (Pietro Maximoff)</h1>
+            <ul>
+                <li><strong>Role:</strong> Speedster</li>
+                <li><strong>Power:</strong> Supersonic speed &amp; reflexes</li>
+                <li><strong>Origin:</strong> Sokovia</li>
+                <li><strong>Twin:</strong> Wanda Maximoff (Scarlet Witch)</li>
+                <li><strong>Trait:</strong> Accelerated perception &amp; metabolism</li>
+                <li><strong>Signature:</strong> "You didn't see that coming?"</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/Quicksilver_(Marvel_Comics)" target="_blank">Know more</a></button>
+        </div>
+
+        <div class="card">
+            <div><img src="https://upload.wikimedia.org/wikipedia/en/0/02/Carol_Danvers_-_%28evolution%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled" alt="Captain Marvel"></div>
+            <h1>Captain Marvel (Carol Danvers)</h1>
+            <ul>
+                <li><strong>Role:</strong> Cosmic Protector</li>
+                <li><strong>Power:</strong> Photon energy blasts &amp; absorption</li>
+                <li><strong>Ability:</strong> Lightspeed flight &amp; space survival</li>
+                <li><strong>Origin:</strong> Tesseract-powered engine blast</li>
+                <li><strong>Background:</strong> U.S. Air Force pilot</li>
+                <li><strong>Trait:</strong> Near-invulnerable cosmic strength</li>
+            </ul>
+            <button><a href="https://en.wikipedia.org/wiki/Carol_Danvers" target="_blank">Know more</a></button>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fa-brands fa-square-whatsapp"></i><br>
+        <i class="fa-brands fa-square-facebook"></i><br>
+        <i class="fa-brands fa-youtube"></i><br>
+    </div>
+</body>
+
+</html>

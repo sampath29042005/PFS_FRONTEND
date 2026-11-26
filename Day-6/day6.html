@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        /*
+        block level elements - it occupies total spaces
+        inline elements -  it takes necessary space 
+        inline- block - behave like a inline but properties like block level elements
+        */
+
+        /* div{
+            background-color: aqua;
+            padding: 20px;
+            width: 25%;
+            margin: 20px;
+        }
+        span{
+            background-color: darkred;
+            padding: 20px;
+            display: inline-block;
+            width: 80px;
+            height: 200px;
+            margin: 20px;
+        }*/
+        .parent{
+            background: lightblue;
+            padding: 40px;
+            text-align: center;
+        }
+        img{
+            width: 300px;
+            height: 200px;
+        }
+        .card{
+            background: orange;
+            width: 25%;
+            padding: 20px;
+            margin: 10px;
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+        button{
+            padding: 20px;
+            background: transparent;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        /*
+        position
+        static
+        fixed
+        sticky
+        relative
+        absolute
+        */
+        .icons{
+            position: fixed;
+            top: 40%;
+            right: 5%;
+
+        }
+        header{
+            padding: 20px;
+            text-align: right;
+            position: sticky;
+            top:0;
+            background: gray;
+        }
+        a{
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div>sample text for the <span>webpage</span>  </div>
+    <div>sample text for the webpage </div> -->
+    <header>
+        <nav>|
+        <a href="">home</a>|
+        <a href="">about</a>|
+        <a href="">servies</a>|
+        </nav>
+    </header>
+
+    <div class="parent">
+        <div class="card">
+            <div><img src="https://itsagar.com/assets/v3/images/page/full-stack-mern.webp" alt="mfs.img"></div>
+            <h1>Mern Full Stack</h1>
+            <p>Become a python orriented fullstack developer with the skills</p>
+            <p>80,0000</p>
+            <button>view details</button>
+        </div>
+
+        <div class="card">
+            <div><img
+                    src="https://bucket-neosite.s3.ap-south-1.amazonaws.com/b900fb30-7621-4cea-926a-b5ad5d6ea5ef/website/service/full-stack-python-development-in-nashik.jpg"alt="pfs.img"></div>
+            <h1>Python Full Stack</h1>
+            <p>Become a python orriented fullstack developer with the skills</p>
+            <p>50,0000</p>
+            <button>view details</button>
+        </div>
+
+        <div class="card">
+            <div><img src="https://www.vagdevitechnologies.com/wp-content/uploads/2025/01/Java-full-stack-image.webp"alt="jfs.img"></div>
+            <h1>Java Full Stack</h1>
+            <p>Become a python orriented fullstack developer with the skills</p>
+            <p>60,0000</p>
+            <button>view details</button>
+        </div>
+
+
+    </div>
+
+    <div class="icons">
+        <i class="fa-brands fa-square-whatsapp"></i><br>
+        <i class="fa-brands fa-square-linkedin"></i><br>
+        <i class="fa-brands fa-square-facebook"></i><br>
+        <i class="fa-brands fa-square-github"></i><br>      
+        <i class="fa-brands fa-youtube"></i><br>
+    </div>
+
+    
+</body>
+
+</html>

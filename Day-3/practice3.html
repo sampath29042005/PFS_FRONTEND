@@ -3,10 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Crunchyroll webpage</title>
+    <title>Sample YouTube</title>
 </head>
 <body>
-    
-    
+    <header id="home">
+        <table border="1" cellpadding="10" cellspacing="0" width="100%">
+            <tr>
+                <td width="20%">
+                    <h1>YouTube</h1>
+                </td>
+                <td width="55%">
+                    <label>Search:</label>
+                    <input type="text">
+                    <a href="#videos">Go</a>
+                </td>   
+            </tr>
+        </table>
+    </header>
+    <br>
+    <main>
+        <table border="1" cellpadding="10" cellspacing="0" width="100%">
+            <tr>
+                <td width="20%">
+                    <aside>
+                        <h3>Menu</h3>
+                        <ul type="square">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#featured">Featured Video</a></li>
+                            <li><a href="#videos">Recommended</a></li>
+                            <li><a href="#trending">Trending</a></li>
+                        </ul>
+                        <hr>
+                        <h3>Subscriptions</h3>
+                        <ul type="square">
+                            <li>Code Channel</li>
+                            <li>Web Dev Academy</li>
+                            <li>Tech Tutorials</li>
+                            <li>Backend Basics</li>
+                        </ul>
+                    </aside>
+                </td>
+                <td width="80%">
+                    <nav>
+                        <a href="#home">All</a> |
+                        <a href="#featured">HTML</a> |
+                        <a href="#videos">CSS</a> |
+                        <a href="#videos">JavaScript</a> |
+                    </nav>
+                    <hr>
+                    <section id="featured">
+                        <h2>Now Playing</h2>
+                        <article>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU?si=8KqYZcXl0N3hRcQ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <h3>HTML Tutorial for Beginners</h3>
+                            <p>
+                                <span>Channel: Programming with Mosh</span> |
+                                <span>10M Views</span> |
+                                <span>Published: 2021</span>
+                            </p>
+                            <p>Learn the basics of HTML including tags, attributes, links, images, lists, and tables.</p>
+                        </article>
+                    </section>
+                    <hr>
+                    <section id="videos">
+                        <h2>Recommended Videos</h2>
+                        <table border="1" cellpadding="10" cellspacing="0" width="100%">
+                            <tr>
+                                <td>
+                                    <div>
+                                        <iframe width="280" height="160" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <h4>HTML Crash Course</h4>
+                                        <p><span>Code Channel</span></p>
+                                        <p><span>1.2M views</span></p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <iframe width="280" height="160" src="https://www.youtube.com/embed/1PnVor36_40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <h4>CSS in 20 Minutes</h4>
+                                        <p><span>Web Dev Academy</span></p>
+                                        <p><span>850K views</span></p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <iframe width="280" height="160" src="https://www.youtube.com/embed/W6NZfCO5SIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <h4>JavaScript Tutorial</h4>
+                                        <p><span>Programming with Mosh</span></p>
+                                        <p><span>9.5M views</span></p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <iframe width="280" height="160" src="https://www.youtube.com/embed/SqcY0GlETPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <h4>React for Beginners</h4>
+                                        <p><span>Tech Tutorials</span></p>
+                                        <p><span>2.1M views</span></p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+ 
+                </td>
+            </tr>
+        </table>
+    </main>
+    <br>
+    <hr>
+    <footer id="contact">
+        <p>Sample YouTube </p>
+        <a href="#home">Back to Top</a> |
+        <a href="mailto:bhashwanthalla@gmail.com" target="_blank">Email Support</a> |
+        <a href="https://en.wikipedia.org/wiki/YouTube" target="_blank">About YouTube</a>
+    </footer>
 </body>
 </html>
